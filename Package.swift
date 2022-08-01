@@ -4,8 +4,8 @@ import PackageDescription
 let package = Package(
     name: "WootricSDK",
     platforms: [
-        .iOS(.v9),
-        .macOS(.v10_10),
+        .iOS(.v13),
+        .macOS(.v10_13),
         .tvOS(.v9),
         .watchOS(.v2)
     ],
