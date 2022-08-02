@@ -36,7 +36,7 @@
 #import "Wootric.h"
 #import "WTRSurveyDelegate.h"
 #import <Social/Social.h>
-#import <WootricSDK/WootricSDK-Swift.h>
+#import <WootricSDK.h>
 
 @interface WTRSurveyViewController ()
 
@@ -133,13 +133,13 @@
     [WTRLogger logError:@"Invalid URL"];
     return;
   }
-  [[UIApplication sharedApplication] openExternalUrl:sender.buttonURL completion:^(BOOL success) {
-    if (success) {
-        [self dismissViewControllerWithBackgroundFade];
-    } else {
-        [WTRLogger logError:@"Failed to open 'thank you' url"];
-    }
-  }];
+    [[UIApplication sharedApplication] openURL:sender.buttonURL options:@{} completionHandler:^(BOOL success) {
+            if (success) {
+                [self dismissViewControllerWithBackgroundFade];
+            } else {
+                [WTRLogger logError:@"Failed to open 'thank you' url"];
+            }
+    }];
 }
 
 - (void)editScoreButtonPressed:(UIButton *)sender {
@@ -210,15 +210,15 @@
 
 - (void)openWootricHomepage:(UIButton *)sender {
   NSURL *url = [NSURL URLWithString:@"https://www.wootric.com"];
-  [[UIApplication sharedApplication] openExternalUrl:url completion:^(BOOL success) {
-      if (!success) {
-          [WTRLogger logError:@"Failed to open wootric page"];
-      }
-  }];
+    [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:^(BOOL success) {
+        if (!success) {
+            [WTRLogger logError:@"Failed to open wootric page"];
+        }
+    }];
 }
 
 - (void)optOutButtonPressed:(UIButton *)sender {
-    [[UIApplication sharedApplication] openExternalUrl:[self optOutURL] completion:^(BOOL success) {
+    [[UIApplication sharedApplication] openURL:[self optOutURL] options:@{} completionHandler:^(BOOL success) {
         if (success) {
             [self dismissViewControllerWithBackgroundFade];
         } else {
@@ -230,11 +230,11 @@
 -(void)socialButtonPressedForService:(UIButton *)sender {
   if ([sender.titleLabel.text isEqualToString:[NSString fontAwesomeIconStringForEnum:FAThumbsUp]]) {
     NSURL *url = _settings.facebookPage;
-    [[UIApplication sharedApplication] openExternalUrl:url completion:^(BOOL success) {
-        if (!success) {
-            [WTRLogger logError:@"Failed to open facebook page"];
-        }
-    }];
+      [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:^(BOOL success) {
+          if (!success) {
+              [WTRLogger logError:@"Failed to open facebook page"];
+          }
+      }];
   } else {
     NSString *serviceType;
     NSString *socialNetwork;
@@ -384,7 +384,7 @@
 }
 
 - (void)getSizeAndRecalculatePositionsBasedOnOrientation {
-  UIInterfaceOrientation interfaceOrientation = [[UIApplication sharedApplication] applicationOrientation];
+  UIInterfaceOrientation interfaceOrientation = UIDevice.currentDevice.orientation;
   BOOL isFromLandscape = !UIInterfaceOrientationIsLandscape(interfaceOrientation);
   CGFloat widthAfterRotation;
   CGFloat leftAndRightMargins = 28;
@@ -399,7 +399,7 @@
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
   [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
   
-    UIInterfaceOrientation interfaceOrientation = [[UIApplication sharedApplication] applicationOrientation];
+    UIInterfaceOrientation interfaceOrientation = UIDevice.currentDevice.orientation;
   [coordinator animateAlongsideTransition:^(id<UIViewControllerTransitionCoordinatorContext> _Nonnull context) {
     BOOL isFromLandscape = UIInterfaceOrientationIsLandscape(interfaceOrientation);
     CGFloat modalPosition;

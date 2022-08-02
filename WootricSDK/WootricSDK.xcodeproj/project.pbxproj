@@ -144,7 +144,7 @@
 		0F23A969227A4C000093765A /* WTRUserCustomThankYou.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTRUserCustomThankYou.m; sourceTree = "<group>"; };
 		0F370D5721ACAAF10007C27A /* WTRUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTRUtils.h; sourceTree = "<group>"; };
 		0F370D5821ACAAF10007C27A /* WTRUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTRUtils.m; sourceTree = "<group>"; };
-		0F8DE567226A2E5F00A69F10 /* WTRSurveyDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTRSurveyDelegate.h; sourceTree = "<group>"; };
+		0F8DE567226A2E5F00A69F10 /* WTRSurveyDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WTRSurveyDelegate.h; path = Public/WTRSurveyDelegate.h; sourceTree = "<group>"; };
 		0F963EF620E14D5D001EE0D2 /* WTRNotificationCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTRNotificationCenter.m; sourceTree = "<group>"; };
 		0F963EF820E156E6001EE0D2 /* WTRiPADSurveyViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTRiPADSurveyViewControllerTests.m; sourceTree = "<group>"; };
 		0FA6450F2289E475008A1C00 /* WTRCustomSocial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTRCustomSocial.h; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 		0FAB0CAA1CFE1DCE00977346 /* SEGWootricTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGWootricTests.m; sourceTree = "<group>"; };
 		0FC321FD21ADE4A0000E19DF /* WTRUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTRUtilsTests.m; sourceTree = "<group>"; };
 		0FC7D23022F9E98200C170AF /* WTRWootricTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTRWootricTests.m; sourceTree = "<group>"; };
-		0FD5920E1D99EAFF00DD173B /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		0FD5920E1D99EAFF00DD173B /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "fontawesome-webfont.ttf"; path = "Resources/fontawesome-webfont.ttf"; sourceTree = "<group>"; };
 		0FE0F3F720DC041B00499248 /* WTRNotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTRNotificationCenter.h; sourceTree = "<group>"; };
 		0FE0F3FB20DC059700499248 /* WTRDefaultNotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTRDefaultNotificationCenter.h; sourceTree = "<group>"; };
 		0FE0F3FC20DC059700499248 /* WTRDefaultNotificationCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTRDefaultNotificationCenter.m; sourceTree = "<group>"; };
@@ -163,13 +163,13 @@
 		0FEC4B6C1D669E7300D7E941 /* WTRDefaultsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTRDefaultsTests.m; sourceTree = "<group>"; };
 		0FF406B7227262B000C18075 /* WTRDelegateMockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTRDelegateMockViewController.h; sourceTree = "<group>"; };
 		0FF406B8227262B000C18075 /* WTRDelegateMockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTRDelegateMockViewController.m; sourceTree = "<group>"; };
-		178571962088FCA700CCBE02 /* WTRLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTRLogger.h; sourceTree = "<group>"; };
+		178571962088FCA700CCBE02 /* WTRLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WTRLogger.h; path = Public/WTRLogger.h; sourceTree = "<group>"; };
 		178571972088FCA700CCBE02 /* WTRLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTRLogger.m; sourceTree = "<group>"; };
-		1785719A2088FD1500CCBE02 /* WTRLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTRLogLevel.h; sourceTree = "<group>"; };
-		3EF70E0F2626734B00FAE414 /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; };
-		3EF70E142626734B00FAE414 /* IBMPlexSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Italic.ttf"; sourceTree = "<group>"; };
-		3EF70E162626734C00FAE414 /* IBMPlexSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Regular.ttf"; sourceTree = "<group>"; };
-		3EF70E172626734C00FAE414 /* IBMPlexSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Medium.ttf"; sourceTree = "<group>"; };
+		1785719A2088FD1500CCBE02 /* WTRLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WTRLogLevel.h; path = Public/WTRLogLevel.h; sourceTree = "<group>"; };
+		3EF70E0F2626734B00FAE414 /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IBMPlexSans-Bold.ttf"; path = "Resources/IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; };
+		3EF70E142626734B00FAE414 /* IBMPlexSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IBMPlexSans-Italic.ttf"; path = "Resources/IBMPlexSans-Italic.ttf"; sourceTree = "<group>"; };
+		3EF70E162626734C00FAE414 /* IBMPlexSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IBMPlexSans-Regular.ttf"; path = "Resources/IBMPlexSans-Regular.ttf"; sourceTree = "<group>"; };
+		3EF70E172626734C00FAE414 /* IBMPlexSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IBMPlexSans-Medium.ttf"; path = "Resources/IBMPlexSans-Medium.ttf"; sourceTree = "<group>"; };
 		7E0D3239242041FD0034CEBD /* WTREvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTREvent.h; sourceTree = "<group>"; };
 		7E0D323A242041FD0034CEBD /* WTREvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTREvent.m; sourceTree = "<group>"; };
 		7E0D323D24207C960034CEBD /* WTROperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTROperation.h; sourceTree = "<group>"; };
@@ -178,8 +178,8 @@
 		7E6BA6C424297B9600D27EE8 /* WTREventListOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTREventListOperation.m; sourceTree = "<group>"; };
 		7E74E3341C8E986F00BCB84F /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
 		7E74E3351C8E987000BCB84F /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
-		8B4B6A9B282B8E590026B316 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
-		8B4B6A9D282BA6B00026B316 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		8B4B6A9B282B8E590026B316 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIApplication+Extension.swift"; path = "Extensions/UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		8B4B6A9D282BA6B00026B316 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIButton+Extension.swift"; path = "Extensions/UIButton+Extension.swift"; sourceTree = "<group>"; };
 		B2102A2B1BB59ABC0025DABC /* WTRDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTRDefaults.h; sourceTree = "<group>"; };
 		B2102A2C1BB59ABC0025DABC /* WTRDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTRDefaults.m; sourceTree = "<group>"; };
 		B2102A2F1BB59ACE0025DABC /* WTRCustomMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTRCustomMessages.h; sourceTree = "<group>"; };
@@ -251,13 +251,13 @@
 		B2C940671BA71A2900482494 /* WTRSliderDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTRSliderDot.m; sourceTree = "<group>"; };
 		B2C9406A1BA83E6200482494 /* WTRScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTRScoreView.h; sourceTree = "<group>"; };
 		B2C9406B1BA83E6200482494 /* WTRScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTRScoreView.m; sourceTree = "<group>"; };
-		B2D9FCDD1BF9F18E00479F9F /* SEGWootric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGWootric.h; sourceTree = "<group>"; };
+		B2D9FCDD1BF9F18E00479F9F /* SEGWootric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEGWootric.h; path = Public/SEGWootric.h; sourceTree = "<group>"; };
 		B2D9FCDE1BF9F18E00479F9F /* SEGWootric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGWootric.m; sourceTree = "<group>"; };
 		B2DC6F021B81E6F900F599B3 /* WootricSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WootricSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2DC6F071B81E6F900F599B3 /* WootricSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WootricSDK.h; sourceTree = "<group>"; };
+		B2DC6F071B81E6F900F599B3 /* WootricSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WootricSDK.h; path = Public/WootricSDK.h; sourceTree = "<group>"; };
 		B2DC6F0D1B81E6F900F599B3 /* WootricSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WootricSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2DC6F131B81E6F900F599B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2DC6F2C1B82000900F599B3 /* Wootric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wootric.h; sourceTree = "<group>"; };
+		B2DC6F2C1B82000900F599B3 /* Wootric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wootric.h; path = Public/Wootric.h; sourceTree = "<group>"; };
 		B2DC6F2D1B82000900F599B3 /* Wootric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wootric.m; sourceTree = "<group>"; };
 		B2DC6F311B820E6B00F599B3 /* WTRApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTRApiClient.h; sourceTree = "<group>"; };
 		B2DC6F321B820E6B00F599B3 /* WTRApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTRApiClient.m; sourceTree = "<group>"; };
@@ -673,7 +673,7 @@
 		B2DC6EF91B81E6F900F599B3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = Wootric;
 				TargetAttributes = {
 					B2DC6F011B81E6F900F599B3 = {
@@ -865,7 +865,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -920,7 +920,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -945,7 +945,7 @@
 				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/WootricSDK/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = mh_dylib;
 				MARKETING_VERSION = 0.21.0;
@@ -972,7 +972,7 @@
 				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/WootricSDK/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = mh_dylib;
 				MARKETING_VERSION = 0.21.0;
@@ -994,7 +994,7 @@
 				);
 				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = WootricSDKTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wootric.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1007,7 +1007,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = WootricSDKTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wootric.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

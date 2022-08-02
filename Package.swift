@@ -10,7 +10,9 @@ let package = Package(
         .watchOS(.v2)
     ],
     products: [
-        .library(name: "WootricSDK", targets: ["WootricSDK"])
+        .library(
+            name: "WootricSDK",
+            targets: ["WootricSDK"])
     ],
     dependencies: [],
     targets: [
@@ -20,16 +22,19 @@ let package = Package(
             path: "WootricSDK/WootricSDK",
             exclude: ["Info.plist"],
             resources: [
-                .process("fontawesome-webfont.ttf"),
-                .process("IBMPlexSans-Bold.ttf"),
-                .process("IBMPlexSans-Italic.ttf"),
-                .process("IBMPlexSans-Medium.ttf"),
-                .process("IBMPlexSans-Regular.ttf"),
+                .process("Resources"),
+                .process("Extensions")
+//                .process("fontawesome-webfont.ttf"),
+//                .process("IBMPlexSans-Bold.ttf"),
+//                .process("IBMPlexSans-Italic.ttf"),
+//                .process("IBMPlexSans-Medium.ttf"),
+//                .process("IBMPlexSans-Regular.ttf"),
             ],
             publicHeadersPath: "Public",
             cSettings: [
                 .headerSearchPath("."),
-            ]),
+            ]
+        )
     ],
     cxxLanguageStandard: CXXLanguageStandard(rawValue: "gnu++17")
 )
